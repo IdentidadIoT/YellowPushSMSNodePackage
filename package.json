@@ -1,8 +1,8 @@
 {
-  "name": "identidad-sms",
+  "name": "yellowpushsms",
   "version": "1.0.0",
-  "description": "This package provides a programing interface to sending text messages",
-  "main": "./lib/identidadSMS.js",
+  "description": "This package provides a programing interface to send text messages",
+  "main": "./lib/yellowPushSMS.js",
   "directories": {
     "test": "test"
   },

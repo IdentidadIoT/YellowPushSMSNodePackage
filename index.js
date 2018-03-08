@@ -1,13 +1,14 @@
 var yellowPushMS = require('./lib/yellowPushSMS');
 yellowPushMS.start("achavez@identidadiot.com", "1d3nt1d@d");
+//yellowPushMS.start("achavez@identidadiot.com", "1d3nt1d@d", "10278");
 
-sendSMS();
-//bulkSendSMS();
+//sendSMS();
+bulkSendSMS();
 //GetMeessageStatus();
 
 
 function sendSMS(){
-    var response = yellowPushMS.sendSMS('YellowPushSMS','Prueba SMS Node' , '573163985157');
+    var response = yellowPushMS.sendSMS('YellowPushSMS','Prueba SMS Node' , '573163985157,573175564608');
     printResponse(response);
 }
 
@@ -19,10 +20,7 @@ function bulkSendSMS(){
             message: 'Prueba bulk node Damian' },
         {   from: 'Prueba',
             to: '573175564608',
-            message: 'Prueba bulk node Jose' },
-        {   from: 'Prueba',
-            to: '17865467727',
-            message: 'Andres si te llego este mensaje escribe SI en el grupo de Identidad desarrollo - YellowPushSMS' }
+            message: 'Prueba bulk node Jose' }
     ];
 
     var response = yellowPushMS.bulkSendSMS(messages);

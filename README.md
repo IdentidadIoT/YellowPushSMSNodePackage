@@ -41,7 +41,7 @@ yellowPushMS.start('username', 'password', 'accountId');
 var yellowPushMS = require('yellowPushSMS');
 yellowPushMS.start('username', 'password', 'accountId');
 
-var response = yellowPushMS.sendSMS('from', 'message', '"mobileNumberOne,mobileNumberTwo"');
+var response = yellowPushMS.sendSMS('from', 'message', 'mobileNumberOne,mobileNumberTwo');
 
 response.then((response) => {
     console.log(response);

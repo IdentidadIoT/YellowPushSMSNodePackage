@@ -6,7 +6,7 @@
 
 The easiest way to install the library is using [npm](http://www.pip-installer.org/en/latest/), a manager package for JavaScript. Simply run this in the terminal:
 
-    npm install YellowPushSMS
+    npm install yellowpushsms
 
 ### YellowPushSMS Reference
 

@@ -14,7 +14,7 @@ YellowPush API needs your YellowPush credentials. You can either pass these dire
 
 ```javascript
 
-var yellowPushMS = require('yellowPushSMS');
+var yellowPushMS = require('yellowpushsms');
 yellowPushMS.start('username', 'password');
 
 ```

@@ -23,7 +23,7 @@ yellowPushMS.start('username', 'password');
 
 ```javascript
 
-var yellowPushMS = require('yellowPushSMS');
+var yellowPushMS = require('yellowpushsms');
 yellowPushMS.start('username', 'password', 'accountId');
 
 ```
@@ -38,7 +38,7 @@ yellowPushMS.start('username', 'password', 'accountId');
 
 ```javascript
 
-var yellowPushMS = require('yellowPushSMS');
+var yellowPushMS = require('yellowpushsms');
 yellowPushMS.start('username', 'password', 'accountId');
 
 var response = yellowPushMS.sendSMS('from', 'message', 'mobileNumberOne,mobileNumberTwo');
@@ -55,7 +55,7 @@ response.then((response) => {
 
 ```javascript
 
-var yellowPushMS = require('yellowPushSMS');
+var yellowPushMS = require('yellowpushsms');
 yellowPushMS.start('username', 'password', 'accountId');
 
 var messages = [
@@ -81,7 +81,7 @@ response.then((response) => {
 
 ```javascript
 
-var yellowPushMS = require('yellowPushSMS');
+var yellowPushMS = require('yellowpushsms');
 yellowPushMS.start('username', 'password', 'accountId');
 
  var response = yellowPushMS.getMessageStatus('messsageId', new Date('2018-03-06'))

@@ -36,6 +36,8 @@ yellowPushMS.start('username', 'password', 'accountId');
 
 ### Send an SMS
 
+Sends a text message to one or more mobile numbers
+
 ```javascript
 
 var yellowPushMS = require('yellowpushsms');
@@ -52,6 +54,8 @@ response.then((response) => {
 ```
 
 ### Send Bulk SMS
+
+Sends single, bulk text messages 
 
 ```javascript
 
@@ -78,6 +82,8 @@ response.then((response) => {
 ```
 
 ### Gets message status
+
+Gets the messages satatus
 
 ```javascript
 

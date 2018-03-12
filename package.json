@@ -1,6 +1,6 @@
 {
   "name": "yellowpushsms",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This package provides a programing interface to send text messages",
   "main": "./lib/yellowPushSMS.js",
   "directories": {

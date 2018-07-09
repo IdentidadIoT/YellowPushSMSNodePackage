@@ -1,5 +1,5 @@
 var yellowPushMS = require('./lib/yellowPushSMS');
-yellowPushMS.start("achavez@identidadiot.com", "1d3nt1d@d");
+yellowPushMS.start("", "");
 
 sendSMS();
 //bulkSendSMS();
